@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Spectral&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -o-box-sizing: border-box;
+}
+
+:root {
+    --text: rgba(245, 245, 245, 1);
+    --text--secondary: rgba(57, 204, 204, 1);
+    --background: rgba(17, 17, 17, 1); 
+}
+
+html, body {
+    margin: 0; padding: 0;
+}
+
+.theme {
+    color: var(--text);
+    background-color: var(--background);
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-size: 1.5rem;
+    color: var(--text--secondary);
+}
+
+.font-montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.font-spectral {
+    font-family: "Spectral", sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+}
